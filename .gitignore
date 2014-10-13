@@ -1,0 +1,7 @@
+node_modules
+*.pyc
+*.swp
+*.log
+*.tmp
+*~
+__test__

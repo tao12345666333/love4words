@@ -20,7 +20,6 @@ class Application(tornado.web.Application):
 
         tornado.web.Application.__init__(self, hanlers, **settings)
 
-
 def main():
     print 'system started ...'
     tornado.options.parse_command_line()
